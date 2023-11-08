@@ -3,7 +3,7 @@
 
 // BODY //
 $('body')
-    .css('background-image', "url('css/img/matrix image.gif')")
+    .css('background-image', "url('css/img/matrix-image.gif')")
     .css('background-repeat', 'repeat')
     .css('background-size', 'cover');
 
@@ -38,7 +38,7 @@ function onKonamiCode(cb) {
 onKonamiCode(function () {
     alert('You gained 30 lives!')
     $('body')
-        .css('background-image', "url('../css/img/cat matrix.jpeg')")
+        .css('background-image', "url('css/img/cat-matrix.jpeg')")
         .css('object-fit', 'cover')
         .css('background-size', 'cover')
         .css('background-repeat', 'no-repeat');
