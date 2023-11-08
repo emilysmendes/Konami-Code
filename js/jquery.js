@@ -3,7 +3,7 @@
 
 // BODY //
 $('body')
-    .css('background-image', "url('../css/img/matrix image.gif')")
+    .css('background-image', "url('css/img/matrix image.gif')")
     .css('background-repeat', 'repeat')
     .css('background-size', 'cover');
 
