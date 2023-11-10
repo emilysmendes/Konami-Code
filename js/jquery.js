@@ -35,6 +35,7 @@ function onKonamiCode(cb) {
     });
 }
 
+
 onKonamiCode(function () {
     alert('You gained 30 lives!')
     $('body')
