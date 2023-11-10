@@ -9,19 +9,13 @@
     flex-direction: column;
 }
 
-/*
-    The "container", sometimes referred to as a "section", is a container
-    element (semantic when applicable) that vertically separates different
-    areas on the page based on their purpose or topic. It can allow different
-    background colors and properties for each section that help users associate
-    content within it as belonging to the same subject.
-*/
+
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-/* Combo classes to extend the container's versatility */
+
 .container.grow {
     flex: 1 0 0;
 }
@@ -32,12 +26,6 @@
     justify-content: end;
 }
 
-/*
-    The "row" is a container element that horizontally separates its
-    children, which are usually columns. It also performs a secondary role
-    of keeping the content of the site within a reasonable width, so that
-    wider screens don't disrupt the intended layout.
-*/
 .row {
     display: flex;
     width: 100%;
