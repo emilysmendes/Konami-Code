@@ -54,18 +54,13 @@
     flex: 1 0 0;
 }
 
-/*
-    The "column" is a container element that vertically separates its
-    children, which are usually content elements. When paired with sibling columns,
-    it allows for the creation of a flexible grid system that can be used
-    to create a variety of layouts.
-*/
+
 .column {
     display: flex;
     flex-direction: column;
     flex: 1 0 0;
 }
-/* Combo classes to extend the column's versatility */
+
 .column.shrink {
     flex: 0 1 auto;
 }
@@ -123,9 +118,7 @@
 }
 
 
-/*
-    Misc. utility classes
-*/
+
 .gap-5 {
     gap: 5px;
 }
