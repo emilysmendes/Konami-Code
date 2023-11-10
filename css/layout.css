@@ -1,8 +1,4 @@
-/*
-    The "page wrapper" is the outermost container for the page. It mimics
-    the behavior of the body tag, but is a div so that it can be styled
-    with more flexibility than the body tag.
-*/
+
 .page-wrapper {
     display: flex;
     min-height: 100vh;
@@ -32,7 +28,7 @@
     max-width: 1100px;
     padding: 0 20px;
 }
-/* Combo classes to extend the row's versatility */
+
 .row.full-width {
     max-width: unset;
 }
